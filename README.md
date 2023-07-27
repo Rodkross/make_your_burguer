@@ -1,5 +1,7 @@
 # make_your_burguer
 
+versão para teste em: https://rodkross.github.io/make_your_burguer/
+
 ## Project setup
 ```
 npm install

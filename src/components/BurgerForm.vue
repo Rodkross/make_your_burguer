@@ -46,7 +46,20 @@
 
 <script>
 export default {
-    name: 'burgerForm'
+    name: 'burgerForm',
+    data() {
+        return {
+            paes: null,
+            carnes: null,
+            opcionaisdata: null,
+            nome: null,
+            pao: null,
+            carne: null,
+            opcionais: [],
+            status: "solicitado",
+            msg: null
+        }
+    }
 }
 </script>
 

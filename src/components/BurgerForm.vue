@@ -2,7 +2,7 @@
     <div>
         <p>componente de mensagem</p>
         <div>
-            <form id="burger-form">
+            <form id="burger-form" @submit="createBurger">
                 <div class="input-container">
                     <label for="nome">Nome do cliente</label>
                     <input type="text" id="nome" name="nome" v-model="nome" placeholder="Digite seu nome">
@@ -11,24 +11,24 @@
                     <label for="pao">Escolha o pão:</label>
                     <select name="pao" id="pao" v-model="pao">
                         <option value="">Selecione seu pão</option>
-                        <option v-for="pao in paes" :key="pao.id" value="pao.tipo">{{ pao.tipo }}</option>
+                        <option v-for="pao in paes" :key="pao.id" :value="pao.tipo">{{ pao.tipo }}</option>
                     </select>
                 </div>
                 <div class="input-container">
                     <label for="carne">Escolha a carne do seu burger:</label>
                     <select name="carne" id="carne" v-model="carne">
                         <option value="">Selecione o tipo de carne</option>
-                        <option v-for="carne in carnes" :key="carne.id" value="carne.tipo">{{ carne.tipo }}</option>
+                        <option v-for="carne in carnes" :key="carne.id" :value="carne.tipo">{{ carne.tipo }}</option>
                     </select>
                 </div>
                 <div id="opcionais-container" class="input-container">
                     <label id="opcionais-title" for="opcionais">Selecione os opcionais:</label>
-                    <div class="checkbox-container" v-for="opcional in opcionais" :key="opcional.id" value="opcional.tipo">
-                        <input type="checkbox" name="opcionais" v-model="opcionais" value="salame">
-                        <span>{{opcional.tipo}}</span>
+                    <div class="checkbox-container" v-for="opcional in opcionais" :key="opcional.id">
+                        <input type="checkbox" name="opcionais" v-model="opcionais" :value="opcional.tipo">
+                        <span>{{ opcional.tipo }}</span>
                     </div>
                    
-                </div>
+                </div>  
                 <div class="input-container">
                     <input type="submit" class="submit-btn" value="Criar meu Burger!">
                 </div>
@@ -49,7 +49,6 @@ export default {
             pao: null,
             carne: null,
             opcionais: [],
-            status: "solicitado",
             msg: null
         }
     },
@@ -61,6 +60,18 @@ export default {
             this.paes = data.paes;
             this.carnes = data.carnes;
             this.opcionais = data.opcionais;
+        },
+        async createBurger(e) {
+            e.preventDefault();
+            
+            const data = {
+                nome: this.nome,
+                carne: this.carne,
+                pao: this.pao,
+                opcionais: Array.from(this.opcionais),
+                status: "Solicitado"
+            }
+          
         }
     },
     mounted() {

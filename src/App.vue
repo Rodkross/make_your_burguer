@@ -15,7 +15,7 @@ export default {
   },
   data() {
     return {
-      logo_src: '@/components/logo.png',
+      logo_src: '',
       app_name: "Make Your Burguer"
     }
   }

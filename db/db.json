@@ -87,66 +87,77 @@
   ],
   "burgers": [
     {
-      "nome": "Rafael Pires",
+      "nome": "Rodrigo Souza",
       "carne": "Alcatra",
-      "pao": "Parmesão e Orégano",
+      "pao": "3 Queijos",
       "opcionais": [
         "Bacon",
+        "Salame",
+        "Cebola roxa",
         "Cheddar",
         "Tomate",
-        "Cebola roxa"
+        "Pepino"
       ],
-      "status": "Solicitado",
+      "status": "Em produção",
+      "id": 1
+    },
+    {
+      "nome": "Natani Oliveira",
+      "carne": "Alcatra",
+      "pao": "Australiano",
+      "opcionais": [
+        "Cheddar",
+        "Bacon"
+      ],
+      "status": "Em produção",
       "id": 2
     },
     {
-      "nome": "Claudia Alice",
-      "carne": "Alcatra",
-      "pao": "Italiano Branco",
+      "nome": "Cristina Oliveira",
+      "carne": "Maminha",
+      "pao": "Parmesão e Orégano",
       "opcionais": [
-        "Bacon",
         "Tomate",
-        "Cheddar"
-      ],
-      "status": "Solicitado",
-      "id": 4
-    },
-    {
-      "nome": "Diego Neves",
-      "carne": null,
-      "pao": "Pimenta",
-      "opcionais": [
-        "Cheddar",
-        "Tomate",
-        "Salame",
-        "Bacon"
-      ],
-      "status": "Solicitado",
-      "id": 5
-    },
-    {
-      "nome": "Clarice Alcantara",
-      "carne": "Veggie burger",
-      "pao": "Integral",
-      "opcionais": [
         "Pepino",
-        "Tomate",
-        "Bacon",
         "Salame",
         "Cebola roxa"
       ],
-      "status": "Solicitado",
+      "status": "Finalizado",
+      "id": 3
+    },
+    {
+      "nome": "Amilly",
+      "carne": null,
+      "pao": "Australiano",
+      "opcionais": [
+        "Bacon",
+        "Cheddar",
+        "Cebola roxa"
+      ],
+      "status": "Em produção",
+      "id": 4
+    },
+    {
+      "nome": "Heitor Phelipe",
+      "carne": "Alcatra",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Bacon",
+        "Tomate",
+        "Cheddar"
+      ],
+      "status": "Finalizado",
       "id": 6
     },
     {
-      "nome": "Tarama Reis",
+      "nome": "Rúrick Pontes",
       "carne": "Alcatra",
-      "pao": "Italiano Branco",
+      "pao": "3 Queijos",
       "opcionais": [
         "Bacon",
         "Cheddar"
       ],
-      "status": "Solicitado",
+      "status": "Em produção",
       "id": 7
     }
   ]

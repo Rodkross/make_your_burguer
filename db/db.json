@@ -160,6 +160,30 @@
       ],
       "status": "Solicitado",
       "id": 6
+    },
+    {
+      "nome": "Natani Oliveira",
+      "carne": "Picanha",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Bacon",
+        "Tomate",
+        "Cheddar"
+      ],
+      "status": "Solicitado",
+      "id": 7
+    },
+    {
+      "nome": "Jalin Rabei",
+      "carne": "Picanha",
+      "pao": "Australiano",
+      "opcionais": [
+        "Cebola roxa",
+        "Tomate",
+        "Cheddar"
+      ],
+      "status": "Solicitado",
+      "id": 8
     }
   ]
 }

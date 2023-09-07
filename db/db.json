@@ -87,17 +87,6 @@
   ],
   "burgers": [
     {
-      "nome": "Rodrigo Souza",
-      "carne": "Alcatra",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Bacon",
-        "Cheddar"
-      ],
-      "status": "Solicitado",
-      "id": 1
-    },
-    {
       "nome": "Rafael Pires",
       "carne": "Alcatra",
       "pao": "Parmesão e Orégano",
@@ -109,18 +98,6 @@
       ],
       "status": "Solicitado",
       "id": 2
-    },
-    {
-      "nome": "Fabricio Reis",
-      "carne": "Veggie burger",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Cebola roxa",
-        "Pepino",
-        "Tomate"
-      ],
-      "status": "Solicitado",
-      "id": 3
     },
     {
       "nome": "Claudia Alice",
@@ -162,39 +139,15 @@
       "id": 6
     },
     {
-      "nome": "Natani Oliveira",
-      "carne": "Picanha",
-      "pao": "3 Queijos",
+      "nome": "Tarama Reis",
+      "carne": "Alcatra",
+      "pao": "Italiano Branco",
       "opcionais": [
         "Bacon",
-        "Tomate",
         "Cheddar"
       ],
       "status": "Solicitado",
       "id": 7
-    },
-    {
-      "nome": "Jalin Rabei",
-      "carne": "Picanha",
-      "pao": "Australiano",
-      "opcionais": [
-        "Cebola roxa",
-        "Tomate",
-        "Cheddar"
-      ],
-      "status": "Solicitado",
-      "id": 8
-    },
-    {
-      "nome": "Alice Moura",
-      "carne": "Veggie burger",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Bacon",
-        "Pepino"
-      ],
-      "status": "Solicitado",
-      "id": 9
     }
   ]
 }

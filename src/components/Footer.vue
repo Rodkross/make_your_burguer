@@ -1,7 +1,7 @@
 <template>
-    <div id="footer">
-        <p>Make Your Burguer &copy; 2023</p>
-    </div>
+    <footer id="footer">
+        <p>Make Your Burger &copy; 2023</p>
+    </footer>
 </template>
 
 <script>
@@ -20,8 +20,8 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-    bottom: 0;
     width: 100%;
-
+    bottom: 0;
+    
 }
 </style>
